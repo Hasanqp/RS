@@ -16,12 +16,12 @@ namespace RS
 
         //Mehtod to check user validation
 
-        public static bool IsValidUser(string username, string password)
+        public static bool IsValidUser(string user, string pass)
         {
             bool isValid = false;
 
-            string qry = @"select * from users where username ='" + username + 
-                "' and upassword ='" + password + "'";
+            string qry = @"select * from users where username ='" + user + 
+                "' and upassword ='" + pass + "' ";
             SqlCommand cmd = new SqlCommand(qry, con);
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -30,8 +30,21 @@ namespace RS
             if (dt.Rows.Count > 0)
             {
                 isValid = true;
+                USER = dt.Rows[0]["uName"].ToString();
             }
             return isValid;
         }
+
+        // Create property for username
+
+        public static string user;
+
+        public static string USER
+        {
+            get {  return user; }
+            private set { user = value; }
+        }
+
+        
     }
 }
