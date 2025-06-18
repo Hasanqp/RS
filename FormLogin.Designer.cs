@@ -103,7 +103,7 @@
             this.buttonExit.FlatAppearance.BorderSize = 0;
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExit.ForeColor = System.Drawing.Color.White;
-            this.buttonExit.Image = global::RS.Properties.Resources.WhatsApp_Image_2025_06_12_at_22_37_09_f76fd5b7_modified;
+            this.buttonExit.Image = global::RS.Properties.Resources.button_Red;
             this.buttonExit.Location = new System.Drawing.Point(175, 348);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(113, 43);
@@ -118,7 +118,7 @@
             this.buttonLogin.FlatAppearance.BorderSize = 0;
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogin.ForeColor = System.Drawing.Color.White;
-            this.buttonLogin.Image = global::RS.Properties.Resources.WhatsApp_Image_2025_06_12_at_22_36_57_11d7ee20_modified;
+            this.buttonLogin.Image = global::RS.Properties.Resources.pink_button;
             this.buttonLogin.Location = new System.Drawing.Point(38, 348);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(113, 43);

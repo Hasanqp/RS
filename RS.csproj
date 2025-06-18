@@ -64,9 +64,33 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSambleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSambleView.Designer.cs">
+      <DependentUpon>FormSambleView.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainClass.cs" />
+    <Compile Include="Model\FormCategoryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\FormCategoryAdd.Designer.cs">
+      <DependentUpon>FormCategoryAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormSampleAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSampleAdd.Designer.cs">
+      <DependentUpon>FormSampleAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormCategoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormCategoryView.Designer.cs">
+      <DependentUpon>FormCategoryView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,10 +100,22 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSambleView.resx">
+      <DependentUpon>FormSambleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\FormCategoryAdd.resx">
+      <DependentUpon>FormCategoryAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSampleAdd.resx">
+      <DependentUpon>FormSampleAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormCategoryView.resx">
+      <DependentUpon>FormCategoryView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -100,106 +136,82 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\palm-of-hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink_button %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_Violet-modified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button out edite-modified %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\WhatsApp Image 2025-06-12 at 22.36.57_11d7ee20-modified.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2025-06-12 at 22.37.09_f76fd5b7-modified.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-user-64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-user-96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-close-26.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-close-16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-close-16 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-square-16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-minus-16.png" />
+    <None Include="Resources\chef-hat_pink.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cutlery.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\house.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\house %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\house %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chef-hat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ellipsis.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ellipsis %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\button out edite-modified %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Untitled.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pink_button.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pink_button %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\house_pink.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ellipsis_pink.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chef-hat_pink.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ellipsis_White.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chef-hat_White.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\house_White.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\system-update %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\table.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\palm-of-hand.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\identity-card.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\features.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pos %281%29.png" />
+    <None Include="Resources\house_pink.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pos.png" />
+    <None Include="Resources\icons8-add-57.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\settings.png" />
+    <None Include="Resources\icons8-close-16 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minus-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-square-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identity-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pen-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-full-battery-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-battery-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

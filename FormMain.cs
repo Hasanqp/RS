@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RS.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -62,6 +63,7 @@ namespace RS
         private void buttonCategories_Click(object sender, EventArgs e)
         {
             myButtonBG(buttonCategories, null);
+            AddControls(new FormCategoryView());
         }
         private void buttonProducts_Click(object sender, EventArgs e)
         {
